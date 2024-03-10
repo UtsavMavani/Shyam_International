@@ -474,6 +474,11 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   font-family: var(--heading-font);
+  transition: 0.3s;
+}
+
+.footer .footer-about .logo span:hover {
+  color: var(--accent-color);
 }
 
 .footer .footer-about p {
