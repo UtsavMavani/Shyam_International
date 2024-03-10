@@ -459,6 +459,11 @@ section {
   padding-top: 50px;
 }
 
+.footer .footer-about {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
 .footer .footer-about .logo {
   margin-bottom: 20px;
 }
@@ -948,6 +953,10 @@ section,
   .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
     margin-top: 0;
   }
+
+  .about .content {
+    padding-right: 12px !important;
+  }
 }
 
 /* Portfolio Section - Home Page
@@ -1208,8 +1217,7 @@ section,
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .contact-form input[type=text],
-.contact .contact-form input[type=email],
+.contact .contact-form input,
 .contact .contact-form textarea {
   font-size: 14px;
   padding: 10px 15px;
@@ -1221,20 +1229,17 @@ section,
   border-radius: 5px;
 }
 
-.contact .contact-form input[type=text]:focus,
-.contact .contact-form input[type=email]:focus,
+.contact .contact-form input:focus,
 .contact .contact-form textarea:focus {
   border-color: var(--accent-color);
 }
 
-.contact .contact-form input[type=text]::-moz-placeholder,
-.contact .contact-form input[type=email]::-moz-placeholder,
+.contact .contact-form input::-moz-placeholder,
 .contact .contact-form textarea::-moz-placeholder {
   color: rgba(var(--default-color-rgb), 0.3);
 }
 
-.contact .contact-form input[type=text]::placeholder,
-.contact .contact-form input[type=email]::placeholder,
+.contact .contact-form input::placeholder,
 .contact .contact-form textarea::placeholder {
   color: rgba(var(--default-color-rgb), 0.3);
 }
