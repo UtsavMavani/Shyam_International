@@ -180,230 +180,41 @@
       <!-- End About Section -->
 
       <!-- Product Section - Home Page -->
-      <!-- <section id="products" class="portfolio">
+      <section id="products" class="product">
         <div class="container section-title" data-aos="fade-up">
           <h2>Products</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
         </div>
 
         <div class="container">
           <div
             class="isotope-layout"
-            data-default-filter="*"
+            data-default-filter=".filter-vegitables"
             data-layout="masonry"
             data-sort="original-order"
           >
             <ul
-              class="portfolio-filters isotope-filters"
+              class="product-filters isotope-filters"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Card</li>
-              <li data-filter=".filter-branding">Web</li>
+              <li data-filter=".filter-vegitables" class="filter-active">Vegitables</li>
+              <li data-filter=".filter-spices">Spices</li>
+              <li data-filter=".filter-pulses">Pulses</li>
+              <li data-filter=".filter-grains">Grains</li>
+              <li data-filter=".filter-fruits">Fruit</li>
+              <li data-filter=".filter-dryfruits">Dry Fruits</li>
             </ul>
 
             <div
               class="row gy-4 isotope-container"
+              id="products-container"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                    title="App 1"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                    title="Product 1"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                    title="Branding 1"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                    title="App 2"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                    title="Product 2"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                    title="App 3"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                    title="Product 3"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a
-                    href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- End Product Section -->
 
       <!-- Team Section - Home Page -->
@@ -510,10 +321,6 @@
       <section id="contact" class="contact">
         <div class="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
         </div>
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -524,8 +331,8 @@
                   <div class="info-item" data-aos="fade" data-aos-delay="200">
                     <i class="bi bi-geo-alt"></i>
                     <h3>Address</h3>
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
+                    <p>13/14, Maniba park society</p>
+                    <p>Surat, Gujarat - 395010</p>
                   </div>
                 </div>
 
@@ -533,8 +340,8 @@
                   <div class="info-item" data-aos="fade" data-aos-delay="300">
                     <i class="bi bi-telephone"></i>
                     <h3>Call Us</h3>
-                    <p>+1 5589 55488 55</p>
-                    <p>+1 6678 254445 41</p>
+                    <p>+91 97122 12421</p>
+                    <p>+91 97146 26967</p>
                   </div>
                 </div>
 
@@ -542,8 +349,8 @@
                   <div class="info-item" data-aos="fade" data-aos-delay="400">
                     <i class="bi bi-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>info@example.com</p>
-                    <p>contact@example.com</p>
+                    <p>shyaminternational2421@gmail.com</p>
+                    <br>
                   </div>
                 </div>
 
@@ -633,7 +440,13 @@
             <a href="index.html" class="logo d-flex align-items-center">
               <span>Shyam International</span>
             </a>
-            
+
+            <div class="footer-contact mb-3">
+              <p>13/14, Maniba park society near sita nagar chowk</p>
+              <p>Surat, Gujarat - 395010</p>
+              <p>India</p>
+            </div>
+
             <div class="social-links d-flex">
               <a href=""><i class="bi bi-twitter"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -642,8 +455,8 @@
             </div>
           </div>
 
-          <div class="row col-lg-5 col-md-12">
-            <div class="col-lg-6 col-5 footer-links">
+          <div class="row col-lg-5 col-md-12 mt-3">
+            <div class="col-lg-5 col-5 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li><a href="index.html#home">Home</a></li>
@@ -654,15 +467,18 @@
               </ul>
             </div>
 
-            <div class="col-lg-6 col-7 footer-contact text-md-start">
+            <div class="col-lg-7 col-7 footer-contact text-md-start">
               <h4>Contact Us</h4>
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p>United States</p>
-              <p class="mt-4">
-                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
-              </p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <div class="info-item">
+                <i class="bi bi-envelope"></i>
+                <span class="text-break">shyaminternational2421@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="bi bi-telephone"></i> <span>+91 97122 12421</span>
+              </div>
+              <div class="info-item">
+                <i class="bi bi-telephone"></i> <span>+91 97146 26967</span>
+              </div>
             </div>
           </div>
         </div>
@@ -697,5 +513,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
